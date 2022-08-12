@@ -37,13 +37,14 @@ function addAnswer(text, qIndex, idx) {
       list.remove();
     });
     next(++qIndex);
+
+    let target = qnaList[qIndex].a[idx].type;
+
+    for (let i = 0; i < target.length; i++) {
+      select[target[i]] += 1;
+    }
+    console.log(select);
   });
-
-  let target = qnaList[qIndex].a[idx].type;
-
-  for (let i = 0; i < target.length; i++) {
-    select[target[i]] += 1;
-  }
 }
 
 function calResult() {
