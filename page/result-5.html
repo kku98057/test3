@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <script src="../asset/js/gsap.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('d50d659c9a125d2d76ea5e0b39b1b44d');
+        Kakao.isInitialized();
+
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <section class="result shareResult">
+            <div class="container">
+                <div class="title">
+                    <h3 class="title_h" id="result">기념일에 무슨 이벤트 할까, 이벤트 플래너 <뱀>
+                    </h3>
+                </div>
+                <div class="result_img">
+                    <img src="../asset/img/image-5.png" alt="" class="result_img">
+                </div>
+                <div class="result_1">
+                    <p class="result_1_p">상대방의 기념일을 챙기며 깜짝 놀라게 하는 당신!, 아이디어가 뛰어나고 남다른 감각이 있어, 상대방에게 많은 이벤트를 해주는 스타일이에요.
+                        연애할 때 눈치도 빠르고, 감동을 줄 수 있어 상대방이 매일 행복하답니다. 전체적으로 화려한 연애를 하지만, 은근히 비밀이 많고 우유부단한 성격을 가지고 있답니다. 또한
+                        귀가 매우 얇아 남의 이야기를 곧이 곧대로 믿어, 상대방을 의심하기도 하기 때문에 조심해야 된답니다!</p>
+                </div>
+                <script>
+                    function moveHome() {
+                        location.href = '/'
+                    }
+                </script>
+                <div class="share" onclick="moveHome()">
+                    <button>나도참여하기</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

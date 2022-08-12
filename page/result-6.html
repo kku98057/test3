@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <script src="../asset/js/gsap.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('d50d659c9a125d2d76ea5e0b39b1b44d');
+        Kakao.isInitialized();
+
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <section class="result shareResult">
+            <div class="container">
+                <div class="title">
+                    <h3 class="title_h" id="result">어 오늘 머리 바꿨네 잘 어울린다, 센스가 뛰어난 <말>
+                    </h3>
+                </div>
+                <div class="result_img">
+                    <img src="../asset/img/image-6.png" alt="" class="result_img">
+                </div>
+                <div class="result_1">
+                    <p class="result_1_p">연애할 때, 센스가 넘쳐나는 당신! 말재주가 뛰어나며 처세술이 뛰어나, 상대방의 호감을 금방 얻는답니다. 낙천적이고 유연한 성격을 가지고
+                        있으며, 구속받는 것을 싫어하는 스타일이에요. 소중한 사람들을 위해 희생할 줄도 알지만, 쾌략 지향적인 경우가 많아 사치와 허영에 물드는 경우가 다반수입니다. 한탕 주의에
+                        빠져 쉽게 망가질 수 있기 때문에 이 점을 주의해야 된답니다! </p>
+                </div>
+                <script>
+                    function moveHome() {
+                        location.href = '/'
+                    }
+                </script>
+                <div class="share" onclick="moveHome()">
+                    <button>나도참여하기</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

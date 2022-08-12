@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <script src="./asset/js/gsap.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('d50d659c9a125d2d76ea5e0b39b1b44d');
+        Kakao.isInitialized();
+
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>심리테스트</header>
+        <main>
+            <section class="start">
+                <div class="container">
+                    <div class="title">
+                        <h3 class="title_h">심리테스트를 시작해볼까요</h3>
+                        <p class="title_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam nisi
+                            quaerat enim rerum
+                            minima, qui blanditiis aliquam doloribus quod odio adipisci reiciendis optio quidem eius
+                            ullam nemo non asperiores delectus?</p>
+                    </div>
+                    <button class="start_btn"><span>시작하기!</span></button>
+                </div>
+            </section>
+            <section class="qna">
+                <div class="container">
+                    <div class="title">
+                        <h3 class="title_h" id="question">첫번재 질문!</h3>
+
+                    </div>
+                    <ul class="qna_ul">
+                        <!-- <li class="qna_li">질문1</li>
+                        <li class="qna_li">질문2</li>
+                        <li class="qna_li">질문3</li> -->
+                    </ul>
+                </div>
+            </section>
+            <section class="result">
+                <div class="container">
+                    <div class="title">
+                        <h3 class="title_h" id="result">결과값</h3>
+                    </div>
+                    <div class="result_img">
+                        <!-- <img src="" alt="result_img" id="resultImg"> -->
+                    </div>
+                    <div class="result_1">
+                        <p class="result_1_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id
+                            dolor dolorum sint sed
+                            inventore vel placeat odit nemo quam atque fuga rem harum, aut, molestiae, hic dignissimos
+                            officia asperiores.</p>
+                    </div>
+                    <div class="share" onclick="setshare()">
+                        <button>공유하기</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./asset/js/data.js"></script>
+    <script src="./asset/js/script3.js"></script>
+    <script src="./asset/js/share.js"></script>
+</body>
+
+</html>

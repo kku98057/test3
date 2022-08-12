@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <script src="../asset/js/gsap.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('d50d659c9a125d2d76ea5e0b39b1b44d');
+        Kakao.isInitialized();
+
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <section class="result shareResult">
+            <div class="container">
+                <div class="title">
+                    <h3 class="title_h" id="result">난 네가 좋아 너무 좋아, 애교만땅 <개>
+                    </h3>
+                </div>
+                <div class="result_img">
+                    <img src="../asset/img/image-10.png" alt="" class="result_img">
+                </div>
+                <div class="result_1">
+                    <p class="result_1_p">애교쟁이 그 자체인 당신! 둥글둥글하게 처세를 잘 하고, 붙임성이 매우 좋아 사교성이 매우 뛰어난 편이랍니다. 또한 궁금한 것을 참지 못해
+                        호기심이 많고, 강아지같이 상대방에게 찰싹 달라붙는 것을 좋아하는 스타일이에요. 성격이 매우 쾌활하나, 감정의 기복이 은근히 심해 상대방이 하는 말에 대해 크게 상처받는
+                        편입니다. 또한 성격이 급한 경우가 많아, 차분하게 행동을 하지 못하는 편이기 때문에 이 점을 좀만 조심하면 좋을 것 같아요! </p>
+                </div>
+                <script>
+                    function moveHome() {
+                        location.href = '/'
+                    }
+                </script>
+                <div class="share" onclick="moveHome()">
+                    <button>나도참여하기</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

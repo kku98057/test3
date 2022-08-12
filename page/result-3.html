@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <script src="../asset/js/gsap.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('d50d659c9a125d2d76ea5e0b39b1b44d');
+        Kakao.isInitialized();
+
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <section class="result shareResult">
+            <div class="container">
+                <div class="title">
+                    <h3 class="title_h" id="result">이건 어때? 난 어때? 독특한 매력을 가진 <토끼>
+                    </h3>
+                </div>
+                <div class="result_img">
+                    <img src="../asset/img/image-3.png" alt="" class="result_img">
+                </div>
+                <div class="result_1">
+                    <p class="result_1_p">상대방을 홀리게 만드는 당신! 신비롭고 독특한 매력을 가져, 상대방이 푹 빠지게 만드는 스타일이에요. 직감이 발달되어 손재주가 뛰어난
+                        편이고, 연애할 때 통통 튀는 모습들을 많이 보여준답니다. 유순하고 낙천적인 성향이지만, 자칫잘못하면 상대방에게 천진난만한 아이처럼 보일 수 있는 점을 주의해야 돼요. 또한
+                        감정 기복이 심한 편이라 변덕스러운 마음을 가질 수 있어, 이런 부분들에 신경을 쓴다면 좋은 연애를 할 수 있어요.</p>
+                </div>
+                <script>
+                    function moveHome() {
+                        location.href = '/'
+                    }
+                </script>
+                <div class="share" onclick="moveHome()">
+                    <button>나도참여하기</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
