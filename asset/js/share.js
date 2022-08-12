@@ -5,7 +5,7 @@ function setshare() {
   const shareTitle = "십이간지 연애유형 결과";
   const shareDes = infoList[shereResultAlt].name;
   const shareImage = `/asset/img/image-${shereResultAlt}.png`;
-  const shareURL = `/page/result-${shereResultAlt}.html`;
+  const shareURL = `https://kku98057.github.io/page/result-${shereResultAlt}.html`;
 
   console.log(shareURL);
 
